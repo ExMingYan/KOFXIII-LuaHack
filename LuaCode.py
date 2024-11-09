@@ -4,14 +4,7 @@ import os
 import sys
 
 LUAFILEMAXSIZE = 20 * 1024 * 1024
-
-def ConvertValue(value:int)->int:
-	Remainder = value % 8
-	if Remainder < 2: value += 6
-	elif Remainder < 4: value += 2
-	elif Remainder < 6: value -= 2
-	else: value -= 6
-	return value
+CONVERTLIST = [6, 7, 4, 5, 2, 3, 0, 1, 14, 15, 12, 13, 10, 11, 8, 9]
 
 def ProcessFile(path:str):
 	if os.path.isdir(path):
@@ -22,7 +15,7 @@ def ProcessFile(path:str):
 		if filesize > LUAFILEMAXSIZE: exit(f'{path}文件太大无法转换。')
 		with open(path, 'rb') as fread:
 			waitCode = fread.read(filesize)
-			afterCode = list(map(lambda x: (ConvertValue(int(x) >> 4) << 4) | ConvertValue(int(x) & 0xF), waitCode))
+			afterCode = list(map(lambda x: (CONVERTLIST[int(x) >> 4] << 4) | CONVERTLIST[int(x) & 0xF], waitCode))
 		with open(path, "wb") as fwrite:
 			fwrite.write(bytes(afterCode))
 

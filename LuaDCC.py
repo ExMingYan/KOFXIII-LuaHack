@@ -2,13 +2,13 @@
 
 import os
 import sys
-from LuaCode import ConvertValue, LUAFILEMAXSIZE
+from LuaCode import CONVERTLIST, LUAFILEMAXSIZE
 
 
 def deCodeCompile(path:str, Size:int)->None:
 	with open(path, 'rb') as fread:
 		waitdeCode = fread.read(Size)
-		afterdeCode = list(map(lambda x: (ConvertValue(int(x) >> 4) << 4) | ConvertValue(int(x) & 0xF), waitdeCode))
+		afterdeCode = list(map(lambda x: (CONVERTLIST[int(x) >> 4] << 4) | CONVERTLIST[int(x) & 0xF], waitdeCode))
 	newpath = path.split('.')[0] + '_deCode.' + path.split('.')[1]
 	with open(newpath, 'wb') as fwrite:
 		fwrite.write(bytes(afterdeCode))

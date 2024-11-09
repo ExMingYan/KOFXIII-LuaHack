@@ -6,3 +6,4 @@
 Lua/src/*.exe
 .vscode/
 .vs/
+__pycache__/

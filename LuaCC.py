@@ -2,13 +2,13 @@
 
 import os
 import sys
-from LuaCode import ConvertValue, LUAFILEMAXSIZE
+from LuaCode import CONVERTLIST, LUAFILEMAXSIZE
 
 def Code(path:str, Size:int)->None:
 	os.system(f'luac -o "{path}" "{path}"')
 	with open(path, 'rb') as fread:
 		waitCode = fread.read(Size)
-		afterCode = list(map(lambda x: (ConvertValue(int(x) >> 4) << 4) | ConvertValue(int(x) & 0xF), waitCode))
+		afterCode = list(map(lambda x: (CONVERTLIST[int(x) >> 4] << 4) | CONVERTLIST[int(x) & 0xF], waitCode))
 	with open(path, "wb") as fwrite:
 		fwrite.write(bytes(afterCode))
 
