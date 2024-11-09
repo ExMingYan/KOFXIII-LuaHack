@@ -1,6 +1,9 @@
-import struct
+#/usr/bin/env python3
+
 import os
 import sys
+
+LUAFILEMAXSIZE = 20 * 1024 * 1024
 
 def ConvertValue(value:int)->int:
 	Remainder = value % 8
@@ -13,28 +16,20 @@ def ConvertValue(value:int)->int:
 def deCodeCompile(path:str, Size:int)->None:
 	with open(path, 'rb') as fread:
 		waitdeCode = fread.read(Size)
-		afterdeCode = []
-		for value in waitdeCode:
-			tens = ConvertValue(int(value) // 16)
-			units = ConvertValue(int(value) % 16)
-			afterdeCode.append(tens * 16 + units)
+		afterdeCode = list(map(lambda x: (ConvertValue(int(x) >> 4) << 4) | ConvertValue(int(x) & 0xF), waitdeCode))
 	newpath = path.split('.')[0] + '_deCode.' + path.split('.')[1]
-	with open(newpath, "wb") as fwrite:
-		for x in afterdeCode:
-			a = struct.pack('B',x)
-			fwrite.write(a)
-	os.system(f"java -jar unluac.jar {newpath}>{path}")
+	with open(newpath, 'wb') as fwrite:
+		fwrite.write(bytes(afterdeCode))
+	os.system(f'java -jar unluac.jar "{newpath}">"{path}"')
 	os.remove(newpath)
 
-def ProcessFile(path:str):
+def ProcessFile(path:str)->None:
 	if os.path.isdir(path):
 		files = os.listdir(path)
-		for file in files:
-			ProcessFile(os.path.join(path, file))
-	elif str(path).endswith('.lua'):
+		for file in files: ProcessFile(os.path.join(path, file))
+	elif path.endswith('.lua'):
 		filesize = os.path.getsize(path)
-		if filesize > 20971520:
-			exit(f'{path}文件太大无法转换。')
+		if filesize > LUAFILEMAXSIZE: exit(f'{path}文件太大无法转换。')
 		deCodeCompile(path, filesize)
 
 if __name__ == '__main__':
@@ -42,7 +37,7 @@ if __name__ == '__main__':
 		FilePaths = sys.argv[1:]
 		if len(FilePaths) == 0: raise Exception
 	except:
-		InputPaths = input("请输入文件路径或文件名（多文件以,隔开）：")
+		InputPaths = input('请输入文件路径或文件名（多文件以,隔开）：')
 		FilePaths = InputPaths.split(',')
 	finally:
 		for FilePath in FilePaths:

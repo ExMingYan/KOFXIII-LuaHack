@@ -1,0 +1,3834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="42">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"剩余战斗时间"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+431FF4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"战斗时间流速"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+431FF8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"1P-当前HP"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>50</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"1P-HP上限"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>54</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"1P-能量条"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>D8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"1P-当前气数"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>DC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"1P-最大气数"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>E0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"1P-无限气"</Description>
+      <DropDownListLink>无伤害修正</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>1C8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"1P-初始能量（仅限练习模式）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>1CC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"1P-显示BC条上限"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A0</Address>
+      <Offsets>
+        <Offset>C0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"1P-实际BC条上限"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>C4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"1P-当前BC条"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>C8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"1P-BC条自然消耗速度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>CC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"1P-BC恢复冷却"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>D0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"1P-BC状态"</Description>
+      <DropDownListLink>任意选关</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>D4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"1P-无限BC条"</Description>
+      <DropDownListLink>无伤害修正</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>1C9</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"1P-初始BC条占比（仅限练习模式）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>1D0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"1P-特殊状态"</Description>
+      <Options moHideChildren="1"/>
+      <DropDownListLink>特殊状态强化</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>160</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"1P-无特殊状态/酒攻击"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"kofxiii.exe"+004320A0</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19</ID>
+          <Description>"1P-无特殊状态/酒防御"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"kofxiii.exe"+004320A0</Address>
+          <Offsets>
+            <Offset>4</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>20</ID>
+          <Description>"1P-有特殊状态/一层酒攻击"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"kofxiii.exe"+004320A0</Address>
+          <Offsets>
+            <Offset>8</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>21</ID>
+          <Description>"1P-有特殊状态/一层酒防御"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"kofxiii.exe"+004320A0</Address>
+          <Offsets>
+            <Offset>C</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>22</ID>
+          <Description>"1P-两层酒攻击"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"kofxiii.exe"+004320A0</Address>
+          <Offsets>
+            <Offset>10</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"1P-两层酒防御"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"kofxiii.exe"+004320A0</Address>
+          <Offsets>
+            <Offset>14</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>24</ID>
+          <Description>"1P-三层酒攻击"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"kofxiii.exe"+004320A0</Address>
+          <Offsets>
+            <Offset>18</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>25</ID>
+          <Description>"1P-三层酒防御"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"kofxiii.exe"+004320A0</Address>
+          <Offsets>
+            <Offset>1C</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>26</ID>
+          <Description>"1P-四层酒攻击"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"kofxiii.exe"+004320A0</Address>
+          <Offsets>
+            <Offset>20</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>27</ID>
+          <Description>"1P-四层酒防御"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"kofxiii.exe"+004320A0</Address>
+          <Offsets>
+            <Offset>24</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>28</ID>
+          <Description>"1P-五层酒攻击"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"kofxiii.exe"+004320A0</Address>
+          <Offsets>
+            <Offset>28</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"1P-五层酒防御"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"kofxiii.exe"+004320A0</Address>
+          <Offsets>
+            <Offset>2C</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>30</ID>
+          <Description>"1P-特殊状态特效"</Description>
+          <DropDownListLink>风云再起</DropDownListLink>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>"kofxiii.exe"+004320A0</Address>
+          <Offsets>
+            <Offset>48</Offset>
+            <Offset>54</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+            <Offset>38</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"1P-特殊状态剩余时长"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>164</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"1P-当前防御值恢复倒计时"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>58</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>33</ID>
+      <Description>"1P-最大防御值恢复倒计时"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>5C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"1P-当前防御值减少冷却"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>60</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"1P-防御值上限（低优先级）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>68</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"1P-当前防御值"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>6C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>37</ID>
+      <Description>"1P-防御值恢复速度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>70</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>38</ID>
+      <Description>"1P-防御值上限比例（低优先级）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>78</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>39</ID>
+      <Description>"1P-防御值上限（高优先级）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>40</ID>
+      <Description>"1P-不会破防"</Description>
+      <DropDownListLink>无伤害修正</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>1CA</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>41</ID>
+      <Description>"1P-当前晕值恢复倒计时"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>80</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>42</ID>
+      <Description>"1P-最大晕值恢复倒计时"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>84</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>43</ID>
+      <Description>"1P-当前眩晕冷却"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>88</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>44</ID>
+      <Description>"1P-最大眩晕冷却"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>8C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>45</ID>
+      <Description>"1P-晕值上限（低优先级）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+4320A0</Address>
+      <Offsets>
+        <Offset>90</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>46</ID>
+      <Description>"1P-当前晕值"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A0</Address>
+      <Offsets>
+        <Offset>94</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>47</ID>
+      <Description>"1P-晕值恢复速度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A0</Address>
+      <Offsets>
+        <Offset>98</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>48</ID>
+      <Description>"1P-晕值上限比例（低优先级）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A0</Address>
+      <Offsets>
+        <Offset>A0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>49</ID>
+      <Description>"1P-晕值上限（高优先级）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+4320A0</Address>
+      <Offsets>
+        <Offset>A4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>50</ID>
+      <Description>"1P-不会眩晕"</Description>
+      <DropDownListLink>无伤害修正</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>1D4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>51</ID>
+      <Description>"1P-造成伤害倍率"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+3EACA4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>52</ID>
+      <Description>"1P-受到伤害倍率"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+3EACAC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>53</ID>
+      <Description>"1P-切换远近C/D距离"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>54</ID>
+      <Description>"1P-后退距离"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A0</Address>
+      <Offsets>
+        <Offset>F0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>55</ID>
+      <Description>"1P-站立时硬直"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>F4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>56</ID>
+      <Description>"1P-实际连击数"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>AC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>57</ID>
+      <Description>"1P-距离后退帧数"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>100</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>58</ID>
+      <Description>"1P-剩余免疫普通投时长"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>114</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>59</ID>
+      <Description>"1P-剩余免疫必杀投时长"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>118</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>60</ID>
+      <Description>"1P-动作级别"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>130</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>61</ID>
+      <Description>"1P-剩余封印时长"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>17C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>62</ID>
+      <Description>"1P-特殊皮肤"</Description>
+      <DropDownListLink>无伤害修正</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>kofxiii.exe+4320A0</Address>
+      <Offsets>
+        <Offset>1AD</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>63</ID>
+      <Description>"1P-连招练习需求进度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>218</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>64</ID>
+      <Description>"1P-连招练习完成进度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>220</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>65</ID>
+      <Description>"1P-动作"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>8C</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>66</ID>
+      <Description>"1P-当前执行帧数"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>90</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>67</ID>
+      <Description>"1P-状态"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>A8</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>68</ID>
+      <Description>"1P-人物不透明度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>BC</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>69</ID>
+      <Description>"1P-人物角度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>C4</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>70</ID>
+      <Description>"1P-人物宽度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>CC</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>71</ID>
+      <Description>"1P-人物高度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>D4</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>72</ID>
+      <Description>"1P-人物饱和度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>F4</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>73</ID>
+      <Description>"1P-X坐标"</Description>
+      <Options moAllowManualCollapseAndExpand="1"/>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>120</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>74</ID>
+      <Description>"1P-X轴移速"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>12C</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>75</ID>
+      <Description>"1P-X轴朝向"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>138</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>76</ID>
+      <Description>"1P-能否左右移动"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>1A4</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>77</ID>
+      <Description>"1P-Y坐标"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>124</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>78</ID>
+      <Description>"1P-Y轴移速"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>130</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>79</ID>
+      <Description>"1P-Y轴朝向"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>13C</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>80</ID>
+      <Description>"1P-能否上下移动"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>1A6</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>246</ID>
+      <Description>"1P-帧伤"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Binary</VariableType>
+      <BitStart>5</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>1F4</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>251</ID>
+      <Description>"1P-帧伤"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Binary</VariableType>
+      <BitStart>1</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>1F5</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>248</ID>
+      <Description>"1P-不复存在"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Binary</VariableType>
+      <BitStart>4</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>1F5</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>81</ID>
+      <Description>"1P-是否由玩家操作"</Description>
+      <DropDownListLink>修改动作ID/能量/HD/级别</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+431DD8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>82</ID>
+      <Description>"1P-玩家键位指针"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+431DDC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>83</ID>
+      <Description>"1P-玩家键位指针"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>18</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>84</ID>
+      <Description>"1P-1P或2P判定"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>1C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>85</ID>
+      <Description>"1P-测试"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>4</Offset>
+        <Offset>4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>86</ID>
+      <Description>"1P-当前人数"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+431E70</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>87</ID>
+      <Description>"1P-战损人数"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+431E74</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>88</ID>
+      <Description>"1P-角色一"</Description>
+      <DropDownListLink>风云再起</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>kofxiii.exe+431E1C</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>89</ID>
+          <Description>"1P-角色一配色编号"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>kofxiii.exe+431E1E</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>90</ID>
+      <Description>"1P-角色二"</Description>
+      <DropDownListLink>风云再起</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>kofxiii.exe+431E38</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>91</ID>
+          <Description>"1P-角色二配色编号"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>kofxiii.exe+431E3A</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>92</ID>
+      <Description>"1P-角色三"</Description>
+      <DropDownListLink>风云再起</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>831E54</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>93</ID>
+          <Description>"1P-角色三配色编号"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>kofxiii.exe+431E56</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>94</ID>
+      <Description>"2P-当前HP"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>50</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>95</ID>
+      <Description>"2P-HP上限"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>54</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>96</ID>
+      <Description>"2P-能量条"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>D8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>97</ID>
+      <Description>"2P-当前气数"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>DC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>98</ID>
+      <Description>"2P-最大气数"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>E0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>99</ID>
+      <Description>"2P-无限气"</Description>
+      <DropDownListLink>无伤害修正</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>1C8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>100</ID>
+      <Description>"2P-初始能量（仅限练习模式）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>1CC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>101</ID>
+      <Description>"2P-显示BC条上限"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>C0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>102</ID>
+      <Description>"2P-实际BC条上限"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>C4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>103</ID>
+      <Description>"2P-当前BC条"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>C8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>104</ID>
+      <Description>"2P-BC条自然消耗速度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>CC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>105</ID>
+      <Description>"2P-BC条恢复冷却"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>D0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>106</ID>
+      <Description>"2P-BC状态"</Description>
+      <DropDownListLink>任意选关</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>D4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>107</ID>
+      <Description>"2P-无限BC条"</Description>
+      <DropDownListLink>无伤害修正</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>1C9</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>108</ID>
+      <Description>"2P-初始BC条占比（仅限练习模式）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>1D0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>109</ID>
+      <Description>"2P-特殊状态"</Description>
+      <Options moHideChildren="1"/>
+      <DropDownListLink>特殊状态强化</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>160</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>110</ID>
+          <Description>"2P-无特殊状态/酒攻击"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>kofxiii.exe+4320A4</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>111</ID>
+          <Description>"2P-无特殊状态/酒防御"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>kofxiii.exe+4320A4</Address>
+          <Offsets>
+            <Offset>4</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>112</ID>
+          <Description>"2P-有特殊状态/一层酒攻击"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>kofxiii.exe+4320A4</Address>
+          <Offsets>
+            <Offset>8</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>113</ID>
+          <Description>"2P-有特殊状态/一层酒防御"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>kofxiii.exe+4320A4</Address>
+          <Offsets>
+            <Offset>C</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>114</ID>
+          <Description>"2P-两层酒攻击"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>kofxiii.exe+4320A4</Address>
+          <Offsets>
+            <Offset>10</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>115</ID>
+          <Description>"2P-两层酒防御"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>kofxiii.exe+4320A4</Address>
+          <Offsets>
+            <Offset>14</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>116</ID>
+          <Description>"2P-三层酒攻击"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>kofxiii.exe+4320A4</Address>
+          <Offsets>
+            <Offset>18</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>117</ID>
+          <Description>"2P-三层酒防御"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>kofxiii.exe+4320A4</Address>
+          <Offsets>
+            <Offset>1C</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>118</ID>
+          <Description>"2P-四层酒攻击"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>kofxiii.exe+4320A4</Address>
+          <Offsets>
+            <Offset>20</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>119</ID>
+          <Description>"2P-四层酒防御"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>kofxiii.exe+4320A4</Address>
+          <Offsets>
+            <Offset>24</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>120</ID>
+          <Description>"2P-五层酒攻击"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>kofxiii.exe+4320A4</Address>
+          <Offsets>
+            <Offset>28</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>121</ID>
+          <Description>"2P-五层酒防御"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>kofxiii.exe+4320A4</Address>
+          <Offsets>
+            <Offset>2C</Offset>
+            <Offset>168</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>122</ID>
+          <Description>"2P-特殊状态特效"</Description>
+          <DropDownListLink>风云再起</DropDownListLink>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>kofxiii.exe+4320A4</Address>
+          <Offsets>
+            <Offset>48</Offset>
+            <Offset>54</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+            <Offset>38</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>123</ID>
+      <Description>"2P-特殊状态剩余时长"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>164</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>124</ID>
+      <Description>"2P-当前防御值恢复倒计时"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>58</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>125</ID>
+      <Description>"2P-最大防御值恢复倒计时"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>5C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>126</ID>
+      <Description>"2P-当前防御值减少冷却"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>60</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127</ID>
+      <Description>"2P-防御值上限（低优先级）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>68</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>128</ID>
+      <Description>"2P-当前防御值"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>6C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>129</ID>
+      <Description>"2P-防御值恢复速度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>70</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>130</ID>
+      <Description>"2P-防御值上限比例（低优先级）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>78</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>131</ID>
+      <Description>"2P-防御值上限（高优先级）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>132</ID>
+      <Description>"2P-不会破防"</Description>
+      <DropDownListLink>无伤害修正</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>1CA</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>133</ID>
+      <Description>"2P-当前晕值恢复倒计时"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>80</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>134</ID>
+      <Description>"2P-最大晕值恢复倒计时"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>84</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>135</ID>
+      <Description>"2P-当前眩晕冷却"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>88</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>136</ID>
+      <Description>"2P-最大眩晕冷却"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>8C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>137</ID>
+      <Description>"2P-晕值上限（低优先级）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>90</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>138</ID>
+      <Description>"2P-当前晕值"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>94</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>139</ID>
+      <Description>"2P-晕值恢复速度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>98</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>140</ID>
+      <Description>"2P-晕值上限比例（低优先级）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>A0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>141</ID>
+      <Description>"2P-晕值上限（高优先级）"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>A4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>142</ID>
+      <Description>"2P-不会眩晕"</Description>
+      <DropDownListLink>无伤害修正</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>1D4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>143</ID>
+      <Description>"2P-造成伤害倍率"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+3EACA8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>144</ID>
+      <Description>"2P-受到伤害倍率"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+3EACB0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>145</ID>
+      <Description>"2P-切换远近C/D距离"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>146</ID>
+      <Description>"2P-后退距离"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>F0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>147</ID>
+      <Description>"2P-站立时硬直"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>F4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>148</ID>
+      <Description>"2P-实际连击数"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>AC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>149</ID>
+      <Description>"2P-距离后退帧数"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A0</Address>
+      <Offsets>
+        <Offset>100</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>150</ID>
+      <Description>"2P-剩余免疫普通投时长"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>114</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>151</ID>
+      <Description>"2P-剩余免疫必杀投时长"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>118</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>152</ID>
+      <Description>"2P-动作级别"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>130</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>153</ID>
+      <Description>"2P-剩余封印时长"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>17C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>154</ID>
+      <Description>"2P-特殊皮肤"</Description>
+      <DropDownListLink>无伤害修正</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>1AD</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>155</ID>
+      <Description>"2P-连招练习需求进度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>218</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>156</ID>
+      <Description>"2P-连招练习完成进度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>220</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>157</ID>
+      <Description>"2P-动作"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>8C</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>158</ID>
+      <Description>"2P-当前执行帧数"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>90</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>159</ID>
+      <Description>"2P-状态"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>A8</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>160</ID>
+      <Description>"2P-人物不透明度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>BC</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>161</ID>
+      <Description>"2P-人物角度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>C4</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>162</ID>
+      <Description>"2P-人物宽度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>CC</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>163</ID>
+      <Description>"2P-人物高度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>D4</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>164</ID>
+      <Description>"2P-X坐标"</Description>
+      <Options moAllowManualCollapseAndExpand="1"/>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>120</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>165</ID>
+      <Description>"2P-X轴移速"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>12C</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>166</ID>
+      <Description>"2P-X轴朝向"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>138</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>167</ID>
+      <Description>"2P-能否左右移动"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>1A4</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>168</ID>
+      <Description>"2P-Y坐标"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>124</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>169</ID>
+      <Description>"2P-Y轴移速"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>130</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>170</ID>
+      <Description>"2P-Y轴朝向"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>13C</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>171</ID>
+      <Description>"2P-能否上下移动"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>1A6</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>250</ID>
+      <Description>"2P-帧伤"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Binary</VariableType>
+      <BitStart>5</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>1F4</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>252</ID>
+      <Description>"2P-帧伤"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Binary</VariableType>
+      <BitStart>1</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>1F5</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>249</ID>
+      <Description>"2P-不复存在"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Binary</VariableType>
+      <BitStart>4</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>"kofxiii.exe"+004320A4</Address>
+      <Offsets>
+        <Offset>1F5</Offset>
+        <Offset>8</Offset>
+        <Offset>8</Offset>
+        <Offset>38</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>172</ID>
+      <Description>"2P-是否由玩家操作"</Description>
+      <DropDownListLink>修改动作ID/能量/HD/级别</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+431EDC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>173</ID>
+      <Description>"2P-玩家键位指针"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+431EE0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>174</ID>
+      <Description>"2P-玩家键位指针"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>18</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>175</ID>
+      <Description>"2P-1P或2P判定"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>1C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>176</ID>
+      <Description>"2P-测试"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+4320A4</Address>
+      <Offsets>
+        <Offset>4</Offset>
+        <Offset>4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>177</ID>
+      <Description>"2P-当前人数"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+431F74</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>178</ID>
+      <Description>"2P-战损人数"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+431F78</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>179</ID>
+      <Description>"2P-角色一"</Description>
+      <DropDownListLink>风云再起</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>kofxiii.exe+431F20</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>180</ID>
+          <Description>"2P-角色一配色编号"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>kofxiii.exe+431F22</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>181</ID>
+      <Description>"2P-角色二"</Description>
+      <DropDownListLink>风云再起</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>kofxiii.exe+431F3C</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>182</ID>
+          <Description>"2P-角色二配色编号"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>kofxiii.exe+431F3E</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>183</ID>
+      <Description>"2P-角色三"</Description>
+      <DropDownListLink>风云再起</DropDownListLink>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>kofxiii.exe+431F58</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>184</ID>
+          <Description>"2P-角色三配色编号"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>kofxiii.exe+431F5A</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>185</ID>
+      <Description>"防御减伤倍率"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Double</VariableType>
+      <Address>kofxiii.exe+3A2600</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>186</ID>
+      <Description>"Counter伤害倍率"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Double</VariableType>
+      <Address>kofxiii.exe+3A27D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>187</ID>
+      <Description>"每击伤害减少比例"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+3E27A0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>188</ID>
+      <Description>"拳脚/普通投/必杀/ex必杀最低伤害占比"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+3E27A4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>189</ID>
+      <Description>"超必杀/ex超必杀最低伤害占比"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.g_LEngineDefaultPoolId+F728</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>190</ID>
+      <Description>"neo超必杀最低伤害占比"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.g_LEngineDefaultPoolId+F72C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>191</ID>
+      <Description>"最低伤害"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+3E24C4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>192</ID>
+      <Description>"BOSS额外攻击"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+3E27B0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>193</ID>
+      <Description>"BOSS额外防御"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+3E27B4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>194</ID>
+      <Description>"战败增加造成伤害倍率"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>007EA908</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>195</ID>
+      <Description>"战败减少受到伤害倍率"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>007EA90C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>196</ID>
+      <Description>"Debug功能"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>kofxiii.exe+3EACBC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>243</ID>
+      <Description>"暗度"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>kofxiii.exe+431AF4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>197</ID>
+      <Description>"风云再起"</Description>
+      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0000:伊丽莎白
+0001:堕珑
+0002:神武
+0003:草薙京
+0004:二阶堂红丸
+0005:大门五郎
+0006:八神庵
+0007:麦卓
+0008:薇丝
+0009:特瑞
+000A:安迪
+000B:东丈
+000C:麻宫雅典娜
+000D:椎拳崇
+000E:镇元斋
+000F:金家藩
+0010:霍查
+0011:雷电
+0012:岅崎良
+0013:罗伯特
+0014:岅崎琢磨
+0015:拉尔夫
+0016:克拉克
+0017:莉安娜
+0018:阿修
+0019:红斋祀
+001A:黑修
+001B:不知火舞
+001C:琼
+001D:岅崎尤莉
+001E:火八
+001F:比利
+0020:K'
+0021:库拉
+0022:马克西马
+0023:咬草
+0024:天狗
+0025:白斋祀
+</DropDownList>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//alloc(APT,$48,kofxiii.exe.text+92DE3)
+//APT:
+//  fld dword ptr [ecx]
+//  cmp [esp+08],kofxiii.exe.text+2120D//街机模式任务奖励
+//  je APT+3E
+//  cmp [esp+08],kofxiii.exe.text+25E98//练习模式设置
+//  je APT+3E
+//  cmp [esp+08],kofxiii.AK::MemoryMgr::SetPoolName+8C5B//街机模式战败Buff
+//  je APT+3E
+//  cmp [esp+08],kofxiii.exe.text+8ADA1//Debug恢复
+//  je APT+3E
+//  cmp [esp+08],kofxiii.exe.text+8D1CE//练习模式设置
+//  je APT+3E
+//  cmp [esp+08],kofxiii.exe.text+8EC66//VS模式设置
+//  jne APT+42
+//  fadd dword ptr [ebp+08]
+//  ret
+//  fadd qword ptr [kofxiii.exe+3A22B8]
+//  ret
+kofxiii.exe.text+92DE0:
+  push ebp
+  mov ebp,esp
+  fld qword ptr [kofxiii.exe.rdata+872B8]
+  fld dword ptr [esp+08]
+  fcom st(0),st(1)
+  fnstsw ax
+  test ah,41
+  je kofxiii.exe.text+92DFA
+  fstp st(0)
+  fld st(0)
+  fld dword ptr [ecx]
+  fild dword ptr [ecx+04]
+  fmul st(0),st(3)
+  fadd st(0),st(1)
+  fstp st(1)
+  fadd st(0),st(1)
+  fild dword ptr [ecx+08]
+  fmul st(0),st(3)
+  fadd st(0),st(3)
+  fcom st(0),st(1)
+  fnstsw ax
+  test ah,41
+  je kofxiii.exe.text+92E21
+  mov eax,[ecx+08]
+  mov [ecx+04],eax
+  fcompp
+  jmp kofxiii.exe.text+92E2A
+  fstp st(0)
+  fsub st(0),st(2)
+  fdiv st(0),st(2)
+  fistp dword ptr [ecx+04]
+  fstp st(0)
+  fstp dword ptr [ecx]
+  pop ebp
+  ret 0004
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+//kofxiii.exe.text+92DE3:
+//  call APT
+
+//alloc(ABT,$1A,kofxiii.exe.text+92BF9)
+//ABT:
+//  fldz
+//  cmp [esp+08],kofxiii.exe.text+8EC4F//VS模式设置
+//  je ABT+12
+//  cmp dword ptr [ebp+08],00
+//  jg ABT+16
+//  fld dword ptr [ebp+08]
+//  ret
+//  fld dword ptr [ecx+08]
+//  ret
+kofxiii.exe.text+92BF0:
+  push ebp
+  mov ebp,esp
+  cmp byte ptr [ecx+18],00
+  jne kofxiii.exe+93C4B
+  fldz
+  cmp byte ptr [esp+04],4F
+  je kofxiii.exe+93C08
+  cmp dword ptr [ebp+08],00
+  jg kofxiii.exe+93C0D
+  fld dword ptr [ebp+08]
+  jmp kofxiii.exe+93C10
+  fld dword ptr [ecx+08]
+  fcom st(0),st(1)
+  fnstsw ax
+  test ah,41
+  jnp kofxiii.exe+93C1F
+  cmp dword ptr [ecx+14],00
+  jne kofxiii.exe+93C4F
+  fadd dword ptr [ecx+0C]
+  fxch st(1)
+  fcom st(0),st(1)
+  fnstsw ax
+  test ah,41
+  jne kofxiii.exe+93C31
+  fstp st(1)
+  jmp kofxiii.exe+93C33
+  fstp st(0)
+  fld dword ptr [ecx+08]
+  fxch st(1)
+  fcom st(0),st(1)
+  fnstsw ax
+  fstp st(1)
+  test ah,41
+  jne kofxiii.exe+93C48
+  fstp st(0)
+  fld dword ptr [ecx+08]
+  fstp dword ptr [ecx+0C]
+  pop ebp
+  ret 0004
+  fcompp
+  pop ebp
+  ret 0004
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+//kofxiii.exe.text+92BF9:
+//  call ABT
+
+kofxiii.exe.text+A2DFA:
+  db 31
+
+kofxiii.exe.text+A2E64:
+  db EB
+
+kofxiii.exe.text+1E8D6:
+  db 39 DB 75
+
+kofxiii.exe.text+87E27:
+  db 82
+
+kofxiii.exe.text+881E9:
+  db 02 0F 84
+
+kofxiii.AK::MemoryMgr::SetPoolName+9E8A:
+  db 02 74
+
+[DISABLE]
+kofxiii.exe.text+92DE0://回复能量
+  push ebp
+  mov ebp,esp
+  fld dword ptr [ecx]
+  fadd dword ptr [ebp+08]
+  fstp dword ptr [ebp+08]
+  fld dword ptr [ebp+08]
+  fst dword ptr [ecx]
+  fld qword ptr [kofxiii.exe+3A22B8]
+  fcom st(0),st(1)
+  fnstsw ax
+  fstp st(1)
+  test ah,05
+  jp kofxiii.exe+93E2E
+  mov edx,[ecx+04]
+  fld dword ptr [kofxiii.exe+393788]
+  push esi
+  mov esi,[ecx+08]
+  cmp edx,esi
+  jae kofxiii.exe+93E1E
+  fld dword ptr [ecx]
+  inc edx
+  fsub st(0),st(2)
+  mov [ecx+04],edx
+  fstp dword ptr [ecx]
+  jmp kofxiii.exe+93E20
+  fst dword ptr [ecx]
+  fld dword ptr [ecx]
+  fcomp st(0),st(2)
+  fnstsw ax
+  test ah,41
+  je kofxiii.exe+93E0E
+  fstp st(1)
+  pop esi
+  fstp st(0)
+  pop ebp
+  ret 0004
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+//kofxiii.exe.text+92DE3
+//  db D9 01 D8 45 08
+//dealloc(APT)
+kofxiii.exe.text+92BF0://回复HD条
+  push ebp
+  mov ebp,esp
+  cmp byte ptr [ecx+18],00
+  jne kofxiii.exe+93C53
+  fldz
+  fld dword ptr [ebp+08]
+  fcom st(0),st(1)
+  fnstsw ax
+  test ah,05
+  jnp kofxiii.exe+93C0D
+  cmp dword ptr [ecx+14],00
+  jne kofxiii.exe+93C4F
+  fadd dword ptr [ecx+0C]
+  fstp dword ptr [ebp+08]
+  fld dword ptr [ebp+08]
+  fcom qword ptr [kofxiii.exe+3A22C0]
+  fnstsw ax
+  test ah,41
+  jne kofxiii.exe+93C27
+  fstp st(1)
+  jmp kofxiii.exe+93C29
+  fstp st(0)
+  fstp dword ptr [ebp+08]
+  fld dword ptr [ecx+08]
+  fld dword ptr [ebp+08]
+  fcom st(0),st(1)
+  fnstsw ax
+  fstp st(1)
+  test ah,41
+  jne kofxiii.exe+93C42
+  fstp st(0)
+  fld dword ptr [ecx+08]
+  fstp dword ptr [ebp+08]
+  fld dword ptr [ebp+08]
+  fstp dword ptr [ecx+0C]
+  pop ebp
+  ret 0004
+  fstp st(0)
+  fstp st(0)
+  pop ebp
+  ret 0004
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+  int 3
+//kofxiii.exe.text+92BF9
+//  db D9 EE D9 45 08
+//dealloc(ABT)
+kofxiii.exe.text+A2DFA://可选择相同角色
+  db 85
+kofxiii.exe.text+A2E64://可选择相同配色
+  db 75
+kofxiii.exe.text+1E8D6://可选择相同配色
+  db 3B D3 74
+kofxiii.exe.text+87E27://BC中可造成晕值
+  db 85
+kofxiii.exe.text+881E9://BC中命中对手可回复能量
+  db 00 0F 85
+kofxiii.AK::MemoryMgr::SetPoolName+9E8A://BC中命中对手可回复能量
+  db 00 75
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>198</ID>
+      <Description>"无伤害修正"</Description>
+      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00:否
+01:是
+</DropDownList>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+kofxiii.exe.text+88796:
+  fstp st(0)
+
+[DISABLE]
+kofxiii.exe.text+88796:
+  fstp st(1)
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>199</ID>
+      <Description>"特殊状态强化"</Description>
+      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00000000:无
+00000001:有/一层酒
+00000002:两层酒
+00000003:三层酒
+00000004:四层酒
+00000005:五层酒
+</DropDownList>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+kofxiii.exe.text+86F0B:
+  db 02
+
+kofxiii.exe.text+86F2D:
+  db 02 DD D8 0F 84
+
+kofxiii.exe.text+87E38:
+  db 02
+
+kofxiii.exe.text+881CB:
+  db 02 75 15
+
+kofxiii.AK::MemoryMgr::SetPoolName+E28C:
+  db 29
+
+kofxiii.AK::MemoryMgr::SetPoolName+9E6D:
+  db EB
+
+[DISABLE]
+kofxiii.exe.text+86F0B:
+  db 00
+kofxiii.exe.text+86F2D:
+  db 00 DD D8 0F 85
+kofxiii.exe.text+87E38:
+  db 00
+kofxiii.exe.text+881CB:
+  db 00 74 15
+kofxiii.AK::MemoryMgr::SetPoolName+E28C:
+  db 1B
+kofxiii.AK::MemoryMgr::SetPoolName+9E6D:
+  db 74
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>200</ID>
+      <Description>"免蓄力+简化66A"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+aobscan(LLA,36 5B 34 5D 2D 36 2C 36 5B 32 5D 70)
+aobscan(YLA,5B 33 30 5D 5E 31 5B 35 5D 3C 36 39 3E 2C 70)
+aobscan(YLB,5B 33 30 5D 5E 31 5B 35 5D 3C 36 39 3E 2C 6B)
+aobscan(YLC,5B 33 30 5D 5E 31 5B 35 5D 3C 36 39 3E 2C 50)
+aobscan(YLD,5B 33 30 5D 5E 31 5B 35 5D 3C 36 39 3E 2C 4B)
+aobscan(YLAC,5B 33 30 5D 5E 31 5B 35 5D 3C 36 39 3E 2C 28 70 50 29)
+aobscan(YLBD,5B 33 30 5D 5E 31 5B 35 5D 3C 36 39 3E 2C 28 6B 4B 29)
+aobscan(YLYA,5B 33 30 5D 5E 31 5B 35 5D 36 2C 31 5B 38 5D 70)
+aobscan(YLYC,5B 33 30 5D 5E 31 5B 35 5D 36 2C 31 5B 38 5D 50)
+aobscan(YLYAC,5B 33 30 5D 5E 31 5B 35 5D 36 2C 31 5B 38 5D 28 70 50 29)
+aobscan(SLB,5B 33 30 5D 5E 3C 31 34 37 3E 5B 35 5D 3C 36 39 3E 2C 6B)
+aobscan(SLD,5B 33 30 5D 5E 3C 31 34 37 3E 5B 35 5D 3C 36 39 3E 2C 4B)
+aobscan(SLBD,5B 33 30 5D 5E 3C 31 34 37 3E 5B 35 5D 3C 36 39 3E 2C 28 6B 4B 29)
+aobscan(SLJA,5B 33 30 5D 5E 62 5B 35 5D 2C 3C 36 39 3E 2C 70)
+aobscan(SLJB,5B 33 30 5D 5E 62 5B 35 5D 2C 3C 36 39 3E 2C 6B)
+aobscan(SLJC,5B 33 30 5D 5E 62 5B 35 5D 2C 3C 36 39 3E 2C 50)
+aobscan(SLJD,5B 33 30 5D 5E 62 5B 35 5D 2C 3C 36 39 3E 2C 4B)
+aobscan(SLJAC,5B 33 30 5D 5E 62 5B 35 5D 2C 3C 36 39 3E 2C 28 70 50 29)
+aobscan(SLJBD,5B 33 30 5D 5E 62 5B 35 5D 2C 3C 36 39 3E 2C 28 6B 4B 29)
+aobscan(ERBA,5B 33 30 5D 5E 64 5B 35 5D 75 2C 70)
+aobscan(ERBB,5B 33 30 5D 5E 64 5B 35 5D 75 2C 6B)
+aobscan(ERBC,5B 33 30 5D 5E 64 5B 35 5D 75 2C 50)
+aobscan(ERBD,5B 33 30 5D 5E 64 5B 35 5D 75 2C 4B)
+aobscan(ERBAC,5B 33 30 5D 5E 64 5B 35 5D 75 2C 28 70 50 29)
+aobscan(ERBBD,5B 33 30 5D 5E 64 5B 35 5D 75 2C 28 6B 4B 29)
+aobscan(EQBA,5B 33 30 5D 5E 64 5B 35 5D 3C 37 38 3E 2C 70)
+aobscan(EQBC,5B 33 30 5D 5E 64 5B 35 5D 3C 37 38 3E 2C 50)
+aobscan(EJA,5B 33 30 5D 5E 64 5B 35 5D 39 2C 70)
+aobscan(EJC,5B 33 30 5D 5E 64 5B 35 5D 39 2C 50)
+aobscan(YSLJA,5B 33 30 5D 5E 3C 31 34 37 3E 5B 35 5D 3C 36 39 3E 2C 70)
+aobscan(YSLJC,5B 33 30 5D 5E 3C 31 34 37 3E 5B 35 5D 3C 36 39 3E 2C 50)
+aobscan(YSLJAC,5B 33 30 5D 5E 3C 31 34 37 3E 5B 35 5D 3C 36 39 3E 2C 28 70 50 29)
+LLA://6[4]-6,6[2]p
+  db 36 2C 70 00 00 00 00 00 00 00 00 00
+YLA+1://[30]^1[5]&lt;69&gt;,p
+  db 30 31
+YLB+1://[30]^1[5]&lt;69&gt;,k
+  db 30 31
+YLC+1://[30]^1[5]&lt;69&gt;,P
+  db 30 31
+YLD+1://[30]^1[5]&lt;69&gt;,K
+  db 30 31
+YLAC+1://[30]^1[5]&lt;69&gt;,(pP)
+  db 30 31
+YLBD+1://[30]^1[5]&lt;69&gt;,(kK)
+  db 30 31
+YLYA+1://[30]^1[5]6,1[8]p
+  db 30 31
+YLYC+1://[30]^1[5]6,1[8]P
+  db 30 31
+YLYAC+1://[30]^1[5]6,1[8](pP)
+  db 30 31
+SLB+1://[30]^&lt;147&gt;[5]&lt;69&gt;,k
+  db 30 31
+SLD+1://[30]^&lt;147&gt;[5]&lt;69&gt;,K
+  db 30 31
+SLBD+1://[30]^&lt;147&gt;[5]&lt;69&gt;,(kK)
+  db 30 31
+SLJA+1://[30]^b[5],&lt;69&gt;,p
+  db 30 31
+SLJB+1://[30]^b[5],&lt;69&gt;,k
+  db 30 31
+SLJC+1://[30]^b[5],&lt;69&gt;,P
+  db 30 31
+SLJD+1://[30]^b[5],&lt;69&gt;,K
+  db 30 31
+SLJAC+1://[30]^b[5],&lt;69&gt;,(pP)
+  db 30 31
+SLJBD+1://[30]^b[5],&lt;69&gt;,(kK)
+  db 30 31
+ERBA+1://[30]^d[5]u,p
+  db 30 31
+ERBB+1://[30]^d[5]u,k
+  db 30 31
+ERBC+1://[30]^d[5]u,P
+  db 30 31
+ERBD+1://[30]^d[5]u,K
+  db 30 31
+ERBAC+1://[30]^d[5]u,(pP)
+  db 30 31
+ERBBD+1://[30]^d[5]u,(kK)
+  db 30 31
+EQBA+1://
+  db 30 31
+ERBC+1://
+  db 30 31
+EJA+1://
+  db 30 31
+EJC+1://
+  db 30 31
+YSLJA+1://[30]^&lt;147&gt;[5]&lt;69&gt;,p
+  db 30 31
+YSLJC+1://[30]^&lt;147&gt;[5]&lt;69&gt;,P
+  db 30 31
+YSLJAC+1://[30]^&lt;147&gt;[5]&lt;69&gt;,(pP)
+  db 30 31
+[DISABLE]
+LLA:
+  db 36 5B 34 5D 2D 36 2C 36 5B 32 5D 70
+YLA:
+  db 5B 33 30
+YLB:
+  db 5B 33 30
+YLC:
+  db 5B 33 30
+YLD:
+  db 5B 33 30
+YLAC:
+  db 5B 33 30
+YLBD:
+  db 5B 33 30
+YLYA:
+  db 5B 33 30
+YLYC:
+  db 5B 33 30
+YLYAC:
+  db 5B 33 30
+SLB:
+  db 5B 33 30
+SLD:
+  db 5B 33 30
+SLBD:
+  db 5B 33 30
+SLJA:
+  db 5B 33 30
+SLJB:
+  db 5B 33 30
+SLJC:
+  db 5B 33 30
+SLJD:
+  db 5B 33 30
+SLJAC:
+  db 5B 33 30
+SLJBD:
+  db 5B 33 30
+ERBA:
+  db 5B 33 30
+ERBB:
+  db 5B 33 30
+ERBC:
+  db 5B 33 30
+ERBD:
+  db 5B 33 30
+ERBAC:
+  db 5B 33 30
+ERBBD:
+  db 5B 33 30
+EQBA:
+  db 5B 33 30
+EQBC:
+  db 5B 33 30
+EJA:
+  db 5B 33 30
+EJC:
+  db 5B 33 30
+YSLJA:
+  db 5B 33 30
+YSLJC:
+  db 5B 33 30
+YSLJAC:
+  db 5B 33 30
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>201</ID>
+      <Description>"修改动作ID/能量/HD/级别"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00000000:否
+00000001:是
+</DropDownList>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+alloc(PH,$C,kofxiii.exe.text+33A20)
+registersymbol(CPH)
+alloc(CPH,4)
+PH:
+mov [CPH],edi
+mov eax,[edi]
+mov ecx,[edi+04]
+ret
+
+kofxiii.exe.text+33A20:
+call PH
+mov [esi],eax
+
+[DISABLE]
+unregistersymbol(CPH)
+dealloc(CPH)
+dealloc(PH)
+kofxiii.exe.text+33A20:
+mov eax,[edi]
+mov [esi],eax
+mov ecx,[edi+04]
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>202</ID>
+          <Description>"修改动作ID"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>CPH</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>203</ID>
+          <Description>"修改动作减少能量"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>CPH</Address>
+          <Offsets>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>204</ID>
+          <Description>"修改动作需求能量"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>CPH</Address>
+          <Offsets>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>205</ID>
+          <Description>"修改动作需求HD"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>CPH</Address>
+          <Offsets>
+            <Offset>C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>206</ID>
+          <Description>"修改动作减少HD"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>CPH</Address>
+          <Offsets>
+            <Offset>10</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>207</ID>
+          <Description>"修改动作级别"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>CPH</Address>
+          <Offsets>
+            <Offset>20</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>208</ID>
+      <Description>"修改非投技属性"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00:无
+01:有
+</DropDownList>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+alloc(RDS,$58,kofxiii.exe.text+10B2E3)
+registersymbol(CDamage)//伤害
+alloc(CDamage,4)
+registersymbol(CDamageMultiple)//伤害倍率
+alloc(CDamageMultiple,4)
+registersymbol(CStiff)//造成硬直
+alloc(CStiff,4)
+registersymbol(CDistanceFrame)//离击退帧数
+alloc(CDistanceFrame,4)
+registersymbol(CDistance)//击退距离
+alloc(CDistance,4)
+registersymbol(CAttackType)//攻击类型
+alloc(CAttackType,4)
+registersymbol(CVfx)//特效种类
+alloc(CVfx,4)
+RDS:
+  cmp al,78
+  jne RDS+10
+  cmp byte ptr [eax],00
+  jne RDS+50
+  mov [CDamage],eax
+  jmp RDS+50
+  cmp al,88
+  jne RDS+1B
+  mov [CDamageMultiple],eax
+  jmp RDS+50
+  cmp al,98
+  jne RDS+26
+  mov [CStiff],eax
+  jmp RDS+50
+  cmp al,64
+  jne RDS+31
+  mov [CDistanceFrame],eax
+  jmp RDS+50
+  cmp al,70
+  jne RDS+3C
+  mov [CDistance],eax
+  jmp RDS+50
+  cmp al,00
+  jne RDS+47
+  mov [CAttackType],eax
+  jmp RDS+50
+  cmp al,10
+  jne RDS+50
+  mov [CVfx],eax
+  mov edx,[eax]
+  mov [esi-08],edx
+  ret
+kofxiii.exe.text+10B2E3:
+  call RDS
+
+alloc(RGuard,$B,kofxiii.exe.text+10D4BF)
+registersymbol(CHGuard)
+alloc(CHGuard,4)
+RGuard:
+  mov [CHGuard],eax
+  mov ecx,[eax]
+  mov [esi-08],ecx
+  ret
+
+kofxiii.exe.text+10D4BF:
+  call RGuard
+
+alloc(RStun,$B,kofxiii.exe.text+10D5B3)
+registersymbol(CStun)
+alloc(CStun,4)
+RStun:
+  mov [CStun],eax
+  mov ecx,[eax]
+  mov [esi-08],ecx
+  ret
+kofxiii.exe.text+10D5B3:
+  call RStun
+
+alloc(RDL,$11,kofxiii.exe.text+B3797)
+registersymbol(CDL)
+alloc(CDL,4)
+RDL:
+  cmp al,9C
+  jne RDL+9
+  mov [CDL],eax
+  mov edx,[eax]
+  mov [esi-08],edx
+  ret
+
+kofxiii.exe.text+B3797:
+  call RDL
+
+alloc(RGE,$D,kofxiii.exe.text+10D2DC)
+registersymbol(CHGE)
+alloc(CHGE,4)
+RGE:
+  mov [CHGE],eax
+  mov ecx,[eax]
+  mov [esi-08],ecx
+  ret
+
+kofxiii.exe.text+10D2DC:
+  call RGE
+
+[DISABLE]
+kofxiii.exe.text+10B2E3:
+  db 8B 10 89 56 F8
+dealloc(RDS)
+unregistersymbol(CDamage)
+dealloc(CDamage)
+unregistersymbol(CDamageMultiple)
+dealloc(CDamageMultiple)
+unregistersymbol(CStiff)
+dealloc(CStiff)
+unregistersymbol(CDistanceFrame)
+dealloc(CDistanceFrame)
+unregistersymbol(CDistance)
+dealloc(CDistance)
+unregistersymbol(CAttackType)
+dealloc(CAttackType)
+unregistersymbol(CVfx)
+dealloc(CVfx)
+
+kofxiii.exe.text+10D4BF:
+  db 8B 08 89 4E F8
+dealloc(RGuard)
+unregistersymbol(CHGuard)
+dealloc(CHGuard)
+
+kofxiii.exe.text+10D5B3:
+  db 8B 08 89 4E F8
+dealloc(RStun)
+unregistersymbol(CStun)
+dealloc(CStun)
+
+kofxiii.exe.text+B3797:
+  db 8B 10 89 56 F8
+dealloc(RDL)
+unregistersymbol(CDL)
+dealloc(CDL)
+
+kofxiii.exe.text+10D2DC:
+  db 8B 08 89 4E F8
+dealloc(RGE)
+unregistersymbol(CHGE)
+dealloc(CHGE)
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>209</ID>
+          <Description>"修改非投技伤害"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>CDamage</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>210</ID>
+          <Description>"修改非投技伤害倍率"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>CDamageMultiple</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>211</ID>
+          <Description>"修改非投技造成硬直"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>CStiff</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>212</ID>
+          <Description>"修改非投技距离击退帧数"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>CDistanceFrame</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>213</ID>
+          <Description>"修改非投技击退距离"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>CDistance</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>214</ID>
+          <Description>"修改招式攻击类型"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>CAttackType</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>215</ID>
+          <Description>"修改非投技特效种类"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>CVfx</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>216</ID>
+          <Description>"修改非投技造成破防值"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>CHGuard</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>217</ID>
+          <Description>"修改非投技造成晕值"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>CStun</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>218</ID>
+          <Description>"修改招式减伤类型"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>CDL</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>219</ID>
+          <Description>"修改非投技被防御伤害类型"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>CHGE</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>222</ID>
+      <Description>"背景变色"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+kofxiii.exe.text+19F89:
+  db E8
+
+kofxiii.exe.text+1A7AF:
+  db EE
+
+alloc(BackGCo3,$10,kofxiii.exe.text+1A86E)
+BackGCo3:
+  fld dword ptr [esp+0C]
+  push ecx
+  fstp dword ptr [esp+10]
+  fldz
+  jmp kofxiii.exe.text+1A873
+kofxiii.exe.text+1A86E:
+  jmp BackGCo3
+
+alloc(BackGCo4,$10,kofxiii.exe.text+1A9F1)
+BackGCo4:
+  fld dword ptr [esp+0C]
+  push ecx
+  fstp dword ptr [esp+10]
+  fldz
+  jmp kofxiii.exe.text+1A9F6
+kofxiii.exe.text+1A9F1:
+  jmp BackGCo4
+
+alloc(BackGCo5,$14,kofxiii.exe.text+1AB49)
+registersymbol(Color)
+alloc(Color,4)
+Color:
+  db 00 00 00 00
+BackGCo5:
+  fld dword ptr [esp+0C]
+  push ecx
+  fstp dword ptr [esp+10]
+  fld dword ptr [Color]
+  jmp kofxiii.exe.text+1AB4E
+kofxiii.exe.text+1AB49:
+  jmp BackGCo5
+
+[DISABLE]
+kofxiii.exe.text+19F89:
+  db EE
+kofxiii.exe.text+1A7AF:
+  db E8
+kofxiii.exe.text+1A86E:
+  db D9 44 24 0C 51
+dealloc(BackGCo3)
+kofxiii.exe.text+1A9F1:
+  db D9 44 24 0C 51
+dealloc(BackGCo4)
+kofxiii.exe.text+1AB49:
+  db D9 44 24 0C 51
+dealloc(BackGCo5)
+unregistersymbol(Color)
+dealloc(Color)
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>223</ID>
+          <Description>"颜色"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:黑色
+1:白色
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>Color</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>220</ID>
+      <Description>"任意选关"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00000000:否
+00000001:是
+</DropDownList>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+kofxiii.exe.text+23673:
+  db C4 24 7E
+
+[DISABLE]
+kofxiii.exe.text+23673:
+  db 10 1E 83
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>221</ID>
+          <Description>"关卡"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>kofxiii.exe+432004</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>224</ID>
+      <Description>"统计伤害"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+kofxiii.exe.text+88D74:
+  cmp ax,03E8
+  jna kofxiii.exe.text+88D7E
+  mov ax,03E8
+
+registersymbol(1PNTDamage)
+alloc(1PNTDamage,$4,kofxiii.exe.text+85FBF)
+registersymbol(1PTDamage)
+alloc(1PTDamage,$4,kofxiii.exe.text+85FBF)
+registersymbol(2PNTDamage)
+alloc(2PNTDamage,$4,kofxiii.exe.text+85FBF)
+registersymbol(2PTDamage)
+alloc(2PTDamage,$4,kofxiii.exe.text+85FBF)
+registersymbol(1PNSD)
+alloc(1PNSD,$7D0,kofxiii.exe.text+88A53)
+registersymbol(1PSD)
+alloc(1PSD,$7D0,kofxiii.exe.text+88A51)
+registersymbol(2PNSD)
+alloc(2PNSD,$7D0,kofxiii.exe.text+88A54)
+registersymbol(2PSD)
+alloc(2PSD,$7D0,kofxiii.exe.text+88A52)
+alloc(Recover,$50,kofxiii.exe.text+85FC2)
+Recover:
+  fldz
+  mov [esi+60],ebx
+  mov [1PNTDamage],ebx
+  mov [1PTDamage],ebx
+  mov [2PNTDamage],ebx
+  mov [2PTDamage],ebx
+  push eax
+  mov eax,[esi+000000B0]
+  test al,01
+  je Recover+29
+  inc eax
+  cmp eax,ebx
+  jle Recover+4E
+  sub eax,02
+  fst dword ptr [eax*2+1PSD]
+  fst dword ptr [eax*2+2PSD]
+  fst dword ptr [eax*2+1PNSD]
+  fst dword ptr [eax*2+2PNSD]
+  jmp Recover+29
+  pop eax
+  ret
+
+kofxiii.exe.text+85FC2:
+  call Recover
+
+alloc(ReadAWD,$4D,kofxiii.exe.text+87B86)
+ReadAWD:
+  and al,01
+  movzx eax,al
+  push eax
+  lea eax,[edi+000000AC]
+  cmp [eax],ebx
+  jg ReadAWD+4B
+  mov ebx,[eax+04]
+  test bl,01
+  je ReadAWD+19
+  inc ebx
+  cmp ebx,00
+  jl ReadAWD+49
+  fldz
+  test byte ptr [edi+1C],01
+  je ReadAWD+36
+  fst dword ptr [ebx*2+1PSD]
+  fstp dword ptr [ebx*2+1PNSD]
+  jmp ReadAWD+44
+  fst dword ptr [ebx*2+2PSD]
+  fstp dword ptr [ebx*2+2PNSD]
+  sub ebx,02
+  jmp ReadAWD+19
+  xor ebx,ebx
+  pop eax
+  ret
+
+kofxiii.exe.text+87B86:
+  call ReadAWD
+
+alloc(ReadD,$5A,kofxiii.exe.text+8865F)
+ReadD:
+  mov edi,[ebp+08]
+  xor ecx,ecx
+  push ebx
+  mov ebx,[esi+000000AC]
+  cmp edi,ecx
+  jl ReadD+58
+  cmp byte ptr [esi+1C],01
+  jne ReadD+38
+  cmp ebx,ecx
+  jne ReadD+20
+  mov [1PNTDamage],ecx
+  add [1PNTDamage],edi
+  cmp ebx,000003E8
+  ja ReadD+58
+  mov [ebx*2+1PNSD],di
+  jmp ReadD+58
+  cmp ebx,ecx
+  jne ReadD+42
+  mov [2PNTDamage],ecx
+  add [2PNTDamage],edi
+  cmp ebx,000003E8
+  ja ReadD+58
+  mov [ebx*2+2PNSD],di
+  pop ebx
+  ret
+
+kofxiii.exe.text+8865F:
+  call ReadD
+
+alloc(CmpHit,$53,kofxiii.exe.text+88A4A)
+CmpHit:
+  cmp edi,00
+  jl CmpHit+4D
+  cmp byte ptr [esi+1C],01
+  jne CmpHit+2D
+  test ecx,ecx
+  jne CmpHit+15
+  mov [1PTDamage],ecx
+  add [1PTDamage],edi
+  cmp ecx,000003E8
+  ja CmpHit+4D
+  mov [ecx*2+1PSD],di
+  jmp CmpHit+4D
+  test ecx,ecx
+  jne CmpHit+37
+  mov [2PTDamage],ecx
+  add [2PTDamage],edi
+  cmp ecx,000003E8
+  ja CmpHit+4D
+  mov [ecx*2+2PSD],di
+  fstp st(1)
+  test ah,44
+  ret
+
+kofxiii.exe.text+88A4A:
+  call CmpHit
+
+[DISABLE]
+kofxiii.exe.text+88D74:
+  cmp eax,63
+  jna kofxiii.exe.text+88D7E
+  mov eax,00000063
+
+
+kofxiii.exe.text+85FC2:
+  db D9 EE 89 5E 60
+dealloc(Recover)
+unregistersymbol(1PNTDamage)
+dealloc(1PNTDamage)
+unregistersymbol(2PNTDamage)
+dealloc(2PNTDamage)
+unregistersymbol(1PTDamage)
+dealloc(1PTDamage)
+unregistersymbol(2PTDamage)
+dealloc(2PTDamage)
+unregistersymbol(1PSD)
+dealloc(1PSD)
+unregistersymbol(2PSD)
+dealloc(2PSD)
+unregistersymbol(1PNSD)
+dealloc(1PNSD)
+unregistersymbol(2PNSD)
+dealloc(2PNSD)
+
+
+dealloc(ReadAWD)
+kofxiii.exe.text+87B86:
+  db 24 01 0F B6 C0
+
+kofxiii.exe.text+8865F:
+  db 8B 7D 08 33 C9
+dealloc(ReadD)
+
+
+kofxiii.exe.text+88A4A:
+  db DD D9 F6 C4 44
+dealloc(CmpHit)
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>225</ID>
+          <Description>"1P-无修正总伤害"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>1PNTDamage</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>226</ID>
+          <Description>"1P-无修正单下伤害头"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>1PNSD</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>227</ID>
+          <Description>"1P-修正后总伤害"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>1PTDamage</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>228</ID>
+          <Description>"1P-修正后单下伤害头"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>1PSD</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>229</ID>
+          <Description>"2P-无修正总伤害"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2PNTDamage</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>230</ID>
+          <Description>"2P-无修正单下伤害头"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2PNSD</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>231</ID>
+          <Description>"2P-修正后总伤害"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2PTDamage</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>232</ID>
+          <Description>"2P-修正后单下伤害头"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2PSD</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>233</ID>
+      <Description>"统计面板"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+alloc(Board,$11,kofxiii.exe.text+2A9177)
+registersymbol(DataBoard)
+alloc(DataBoard,$18,kofxiii.exe.text+2A9182)
+Board:
+  mov eax,[esp+10]
+  push eax
+  mov [DataBoard+edi*4],ecx
+  jmp kofxiii.exe.text+2A9182
+
+kofxiii.exe.text+2A9177:
+  mov ecx,[esi+34]
+  mov ecx,[ecx+edi*4]
+  jmp Board
+
+[DISABLE]
+dealloc(Board)
+unregistersymbol(DataBoard)
+dealloc(DataBoard)
+kofxiii.exe.text+2A9177:
+  mov eax,[esp+10]
+  mov ecx,[esi+34]
+  mov ecx,[ecx+edi*4]
+  push eax
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>234</ID>
+          <Description>"当前伤害"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Double</VariableType>
+          <Address>DataBoard</Address>
+          <Offsets>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>235</ID>
+          <Description>"总伤害"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Double</VariableType>
+          <Address>DataBoard+4</Address>
+          <Offsets>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>236</ID>
+          <Description>"当前连击数"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Double</VariableType>
+          <Address>DataBoard+8</Address>
+          <Offsets>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>237</ID>
+          <Description>"最大连击数"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Double</VariableType>
+          <Address>DataBoard+C</Address>
+          <Offsets>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>238</ID>
+          <Description>"造成晕值"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Double</VariableType>
+          <Address>DataBoard+10</Address>
+          <Offsets>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>239</ID>
+          <Description>"当前晕值"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Double</VariableType>
+          <Address>DataBoard+14</Address>
+          <Offsets>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>241</ID>
+      <Description>"招式无需能量/取消无需HD"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+aobscanmodule(NeedPower,kofxiii.exe,D9 86 D8 00 00 00 DE)
+NeedPower:
+  fld qword ptr [kofxiii.exe+3A22B8]
+
+aobscanmodule(NeedPower2,kofxiii.exe,DB 86 DC 00 00 00)
+NeedPower2:
+  fld qword ptr [kofxiii.exe+3A22B8]
+
+aobscanmodule(NeedBC,kofxiii.exe,D9 86 C8 00 00 00 DE)
+NeedBC:
+  fld qword ptr [kofxiii.exe+3A22B8]
+
+[DISABLE]
+NeedPower:
+  db D9 86 D8 00 00 00
+
+NeedPower2:
+  db DB 86 DC 00 00 00
+
+NeedBC:
+  db D9 86 C8 00 00 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>242</ID>
+      <Description>"固定出近"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+kofxiii.exe.text+8E0C5:
+  db 70
+
+[DISABLE]
+kofxiii.exe.text+8E0C5:
+  db 7B
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>244</ID>
+      <Description>"固定飞行道具"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+aobscanmodule(FPSpeed,kofxiii.exe,DF E0 F6 C4 41 75 04 8B C3)
+alloc(WriteFPS,$12)
+WriteFPS:
+  fnstsw ax
+  test ah,41
+  fldz
+  fstp dword ptr [edi+12C]
+  jmp FPSpeed+5
+
+FPSpeed:
+  jmp WriteFPS
+[DISABLE]
+FPSpeed:
+  db DF E0 F6 C4 41
+dealloc(WriteFPS)
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>245</ID>
+      <Description>"通用伤害"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"kofxiii.exe"+003EABF8</Address>
+      <Offsets>
+        <Offset>1F*14</Offset>
+        <Offset>10</Offset>
+        <Offset>1D*8</Offset>
+        <Offset>C</Offset>
+        <Offset>2E*8</Offset>
+        <Offset>C</Offset>
+        <Offset>5C</Offset>
+        <Offset>10</Offset>
+        <Offset>8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>253</ID>
+      <Description>"自动完成连招练习"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+aobscanmodule(CheckCompletion,kofxiii.exe,3B 81 20 02 00 00)
+CheckCompletion:
+  db 3B 81 18
+[DISABLE]
+
+CheckCompletion:
+  db 3B 81 20
+
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Code :练习模式自动回血</Description>
+      <AddressString>kofxiii.exe+8D9A8</AddressString>
+      <Before>
+        <Byte>79</Byte>
+        <Byte>00</Byte>
+        <Byte>8D</Byte>
+        <Byte>4D</Byte>
+        <Byte>D4</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>46</Byte>
+        <Byte>50</Byte>
+      </Actual>
+      <After>
+        <Byte>C7</Byte>
+        <Byte>45</Byte>
+        <Byte>E8</Byte>
+        <Byte>0F</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Code:招式等级取消</Description>
+      <AddressString>kofxiii.exe+87D5C</AddressString>
+      <Before>
+        <Byte>01</Byte>
+        <Byte>EB</Byte>
+        <Byte>02</Byte>
+        <Byte>32</Byte>
+        <Byte>C0</Byte>
+      </Before>
+      <Actual>
+        <Byte>83</Byte>
+        <Byte>7D</Byte>
+        <Byte>08</Byte>
+        <Byte>06</Byte>
+      </Actual>
+      <After>
+        <Byte>7C</Byte>
+        <Byte>0D</Byte>
+        <Byte>84</Byte>
+        <Byte>C0</Byte>
+        <Byte>74</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Code :背景颜色</Description>
+      <AddressString>kofxiii.exe+1B758</AddressString>
+      <Before>
+        <Byte>E5</Byte>
+        <Byte>5D</Byte>
+        <Byte>C2</Byte>
+        <Byte>04</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>EE</Byte>
+        <Byte>8B</Byte>
+        <Byte>8C</Byte>
+        <Byte>24</Byte>
+        <Byte>94</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>90</Byte>
+        <Byte>08</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>5F</Byte>
+        <Byte>D9</Byte>
+        <Byte>90</Byte>
+        <Byte>04</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>5E</Byte>
+        <Byte>D9</Byte>
+        <Byte>90</Byte>
+        <Byte>00</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>5B</Byte>
+        <Byte>D9</Byte>
+        <Byte>90</Byte>
+        <Byte>FC</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>33</Byte>
+        <Byte>CC</Byte>
+        <Byte>D9</Byte>
+        <Byte>90</Byte>
+        <Byte>F4</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>90</Byte>
+        <Byte>F0</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>90</Byte>
+        <Byte>EC</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>90</Byte>
+        <Byte>E8</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>90</Byte>
+        <Byte>E0</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>90</Byte>
+        <Byte>DC</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>90</Byte>
+        <Byte>D8</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>98</Byte>
+        <Byte>D4</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>E8</Byte>
+        <Byte>D9</Byte>
+        <Byte>90</Byte>
+        <Byte>0C</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>90</Byte>
+        <Byte>F8</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>90</Byte>
+        <Byte>E4</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>98</Byte>
+        <Byte>D0</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>E8</Byte>
+        <Byte>97</Byte>
+        <Byte>7C</Byte>
+        <Byte>19</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>初始化BC条长度</Description>
+      <AddressString>kofxiii.exe+93BA0</AddressString>
+      <Before>
+        <Byte>C3</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+      </Before>
+      <Actual>
+        <Byte>55</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>EC</Byte>
+        <Byte>51</Byte>
+        <Byte>D9</Byte>
+        <Byte>45</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols>
+    <SymbolEntry>
+      <Name>randomvalue</Name>
+      <Address>00680000</Address>
+    </SymbolEntry>
+  </UserdefinedSymbols>
+  <LuaScript>getAutoAttachList().add("kofxiii.exe")
+</LuaScript>
+</CheatTable>

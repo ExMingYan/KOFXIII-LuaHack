@@ -1,0 +1,3 @@
+Lua/src/*.exe
+*.o
+*.a
