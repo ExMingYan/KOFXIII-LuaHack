@@ -2,16 +2,7 @@
 
 import os
 import sys
-
-LUAFILEMAXSIZE = 20 * 1024 * 1024
-
-def ConvertValue(value)->int:
-	Remainder = value % 8
-	if Remainder < 2: value += 6
-	elif Remainder < 4: value += 2
-	elif Remainder < 6: value -= 2
-	else: value -= 6
-	return value
+from LuaCode import ConvertValue, LUAFILEMAXSIZE
 
 def Code(path:str, Size:int)->None:
 	os.system(f'luac -o "{path}" "{path}"')

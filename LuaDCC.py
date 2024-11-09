@@ -2,16 +2,8 @@
 
 import os
 import sys
+from LuaCode import ConvertValue, LUAFILEMAXSIZE
 
-LUAFILEMAXSIZE = 20 * 1024 * 1024
-
-def ConvertValue(value:int)->int:
-	Remainder = value % 8
-	if Remainder < 2: value += 6
-	elif Remainder < 4: value += 2
-	elif Remainder < 6: value -= 2
-	else: value -= 6
-	return value
 
 def deCodeCompile(path:str, Size:int)->None:
 	with open(path, 'rb') as fread:
