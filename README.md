@@ -36,15 +36,20 @@
      luac -o "输出文件路径" "Lua文件路径"
      ```
 
+- 注入字节码
+  1. 将kofxiii.exe移至和Insert.py、InsertConfig.py所在目录
+  2. 按需修改Insert.py和InsertConfig.py
+  3. 运行Insert.py
+
 ## 自编译luac.exe（可选）
 
 ```cmd
 cd Lua/src
 make lua luac
-mv luac.exe ../..
+mv -f luac.exe ../..
 ```
 
 ## 注意
 
-1. 本项目中编译和使用lua和luac使用的版本为5.1.4，数据类型为int32和float
+1. 本项目中编译和使用的lua和luac版本为5.1.4，数据类型为int32和float
 2. Java和Python均需加入环境变量

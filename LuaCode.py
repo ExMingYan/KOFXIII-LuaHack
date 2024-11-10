@@ -3,7 +3,7 @@
 import os
 import sys
 
-LUAFILEMAXSIZE = 20 * 1024 * 1024
+LUAFILEMAXSIZE = 32 * 1024 * 1024
 CONVERTLIST = [6, 7, 4, 5, 2, 3, 0, 1, 14, 15, 12, 13, 10, 11, 8, 9]
 
 def ProcessFile(path:str):
