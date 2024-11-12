@@ -11,10 +11,9 @@ def ProcessFile(path:str):
 		files = os.listdir(path)
 		for file in files: ProcessFile(os.path.join(path, file))
 	elif path.endswith('.lua'):
-		filesize = os.path.getsize(path)
-		if filesize > LUAFILEMAXSIZE: exit(f'{path}文件太大无法转换。')
+		if os.path.getsize(path) > LUAFILEMAXSIZE: exit(f'{path}文件太大无法转换。')
 		with open(path, 'rb') as fread:
-			waitCode = fread.read(filesize)
+			waitCode = fread.read()
 			afterCode = list(map(lambda x: (CONVERTLIST[int(x) >> 4] << 4) | CONVERTLIST[int(x) & 0xF], waitCode))
 		with open(path, "wb") as fwrite:
 			fwrite.write(bytes(afterCode))

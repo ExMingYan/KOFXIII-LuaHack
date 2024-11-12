@@ -5,9 +5,9 @@ import sys
 from LuaCode import CONVERTLIST, LUAFILEMAXSIZE
 
 
-def deCodeCompile(path:str, Size:int)->None:
+def deCodeCompile(path:str)->None:
 	with open(path, 'rb') as fread:
-		waitdeCode = fread.read(Size)
+		waitdeCode = fread.read()
 		afterdeCode = list(map(lambda x: (CONVERTLIST[int(x) >> 4] << 4) | CONVERTLIST[int(x) & 0xF], waitdeCode))
 	newpath = path.split('.')[0] + '_deCode.' + path.split('.')[1]
 	with open(newpath, 'wb') as fwrite:
@@ -20,9 +20,8 @@ def ProcessFile(path:str)->None:
 		files = os.listdir(path)
 		for file in files: ProcessFile(os.path.join(path, file))
 	elif path.endswith('.lua'):
-		filesize = os.path.getsize(path)
-		if filesize > LUAFILEMAXSIZE: exit(f'{path}文件太大无法转换。')
-		deCodeCompile(path, filesize)
+		if os.path.getsize(path) > LUAFILEMAXSIZE: exit(f'{path}文件太大无法转换。')
+		deCodeCompile(path)
 
 if __name__ == '__main__':
 	try:
