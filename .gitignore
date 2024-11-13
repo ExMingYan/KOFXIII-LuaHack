@@ -3,6 +3,7 @@
 *.dll
 /*.lua
 /*.luac
+/*.txt
 /kofxiii.exe
 Lua/src/*.exe
 .vscode/

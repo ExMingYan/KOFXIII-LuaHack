@@ -41,6 +41,16 @@
   2. 按需修改Insert.py和InsertConfig.py
   3. 运行Insert.py
 
+## 目前支持编译的lua文件
+
+- fighter/ai_config.lua
+- fighter/command_table.lua
+- fighter/collision_table.lua
+- script/game_config.lua
+- script/game_params.lua
+- ui/lua_files/Skill_*.lua
+- ui/lua_files/trial_*.lua
+
 ## 自编译luac.exe（可选）
 
 ```cmd
