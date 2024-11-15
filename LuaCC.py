@@ -2,15 +2,16 @@
 
 import os
 import sys
-from LuaCode import CONVERTLIST, LUAFILEMAXSIZE
+from LuaCode import LUAFILEMAXSIZE
 
 def Code(path:str)->None:
 	os.system(f'luac -o "{path}" "{path}"')
 	with open(path, 'rb') as fread:
 		waitCode = fread.read()
-		afterCode = list(map(lambda x: (CONVERTLIST[int(x) >> 4] << 4) | CONVERTLIST[int(x) & 0xF], waitCode))
+		afterCode = list(map(lambda x: int(x) ^ 0x66, waitCode))
 	with open(path, "wb") as fwrite:
 		fwrite.write(bytes(afterCode))
+	os.system(f'echo {path}')
 
 def ProcessFile(path:str)->None:
 	if os.path.isdir(path):
@@ -30,3 +31,4 @@ if __name__ == '__main__':
 	finally:
 		for FilePath in FilePaths:
 			ProcessFile(FilePath)
+		os.system("pause")

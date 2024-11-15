@@ -2,18 +2,18 @@
 
 import os
 import sys
-from LuaCode import CONVERTLIST, LUAFILEMAXSIZE
-
+from LuaCode import LUAFILEMAXSIZE
 
 def deCodeCompile(path:str)->None:
 	with open(path, 'rb') as fread:
 		waitdeCode = fread.read()
-		afterdeCode = list(map(lambda x: (CONVERTLIST[int(x) >> 4] << 4) | CONVERTLIST[int(x) & 0xF], waitdeCode))
+		afterdeCode = list(map(lambda x: int(x) ^ 0x66, waitdeCode))
 	newpath = path.split('.')[0] + '_deCode.' + path.split('.')[1]
 	with open(newpath, 'wb') as fwrite:
 		fwrite.write(bytes(afterdeCode))
 	os.system(f'java -jar unluac.jar "{newpath}">"{path}"')
 	os.remove(newpath)
+	os.system(f'echo {path}')
 
 def ProcessFile(path:str)->None:
 	if os.path.isdir(path):
@@ -33,3 +33,4 @@ if __name__ == '__main__':
 	finally:
 		for FilePath in FilePaths:
 			ProcessFile(FilePath)
+		os.system("pause")

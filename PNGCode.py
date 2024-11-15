@@ -3,17 +3,14 @@
 import os
 import sys
 
-LUAFILEMAXSIZE = 32 * 1024 * 1024
-
 def ProcessFile(path:str):
 	if os.path.isdir(path):
 		files = os.listdir(path)
 		for file in files: ProcessFile(os.path.join(path, file))
-	elif path.endswith('.lua'):
-		if os.path.getsize(path) > LUAFILEMAXSIZE: exit(f'{path}文件太大无法转换。')
+	elif path.endswith('.png'):
 		with open(path, 'rb') as fread:
 			waitCode = fread.read()
-			afterCode = list(map(lambda x: int(x) ^ 0x66, waitCode))
+			afterCode = list(map(lambda x: int(x) ^ 0x75, waitCode))
 		with open(path, "wb") as fwrite:
 			fwrite.write(bytes(afterCode))
 		os.system(f'echo {path}')

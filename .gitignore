@@ -4,6 +4,8 @@
 /*.lua
 /*.luac
 /*.txt
+/*.png
+/*.dds
 /kofxiii.exe
 Lua/src/*.exe
 .vscode/

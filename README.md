@@ -12,15 +12,19 @@
 
 ## 使用方法
 
-- 解密反编译+编译加密
+- Lua解密反编译+编译加密
 
   1. 将py文件和unluac.jar、luac.exe放在同一个文件夹
   2. 将需要解密反编译的文件拖到LuaDCC.py上，等待py执行完毕后修改
   3. 将修改后的文件拖到LuaCC.py上，等待执行完毕
 
-- 仅加解密
+- Lua加解密
 
   - 将需要加密/解密的文件拖到LuaCode.py上，等待py执行完毕
+
+- PNG加解密
+
+  - 将需要加密/解密的文件拖到PNGCode.py上，等待py执行完毕
 
 - 仅反编译/编译（单个文件）
 
@@ -48,8 +52,13 @@
 - fighter/collision_table.lua
 - script/game_config.lua
 - script/game_params.lua
+- script/menu.lua
+- script/scene_config.lua
+- script/sound_config.lua
 - ui/lua_files/Skill_*.lua
 - ui/lua_files/trial_*.lua
+- ui/lua_files/Story.lua
+- ui/lua_files/Tutorial.lua
 
 ## 自编译luac.exe（可选）
 
