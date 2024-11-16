@@ -1,6 +1,7 @@
 #/usr/bin/env python3
 
 import os
+import platform
 import sys
 from LuaCode import LUAFILEMAXSIZE
 
@@ -31,4 +32,4 @@ if __name__ == '__main__':
 	finally:
 		for FilePath in FilePaths:
 			ProcessFile(FilePath)
-		os.system("pause")
+		if platform.system() == 'Windows': os.system("pause")
