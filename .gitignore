@@ -12,3 +12,6 @@ Lua/src/*.exe
 .vs/
 __pycache__/
 Backup/
+LuaFile/
+PNGFile/
+DDSFile/

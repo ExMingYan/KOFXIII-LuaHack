@@ -26,3 +26,5 @@ if __name__ == "__main__":
 	if STORM_COMING_AGAIN:
 		WriteBytes(ADD_POWER_FUNCTION)
 		WriteBytes(ADD_BC_FUNCTION)
+	if DISABLE_PRATICE_RECOVER_HP:
+		WriteBytes(PRATICE_RECOVER_HP)
