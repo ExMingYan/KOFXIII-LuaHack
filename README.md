@@ -36,6 +36,16 @@
 
   2. 将需要转换的dds文件拖到DDS2PNG.py上，等待py执行完毕
 
+- PNG转DDS
+
+  1. 安装Pillow库
+
+     ```cmd
+     pip install Pillow
+     ```
+
+  2. 将需要转换的png文件拖到PNG2DDS.py上，等待py执行完毕
+
 - 仅反编译/编译（单个文件）
 
   1. 反编译

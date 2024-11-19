@@ -6,15 +6,15 @@ import sys
 from PIL import Image
 
 def ProcessFile(path:str):
-	if os.path.isdir(path):
-		files = os.listdir(path)
-		for file in files: ProcessFile(os.path.join(path, file))
-	elif path.endswith('.dds'):
-		dds_image = Image.open(path)
-		newpath = f'{os.path.splitext(path)[0]}.png'
-		dds_image.save(newpath, 'PNG')
-		os.remove(path)
-		os.system(f'echo {path}')
+    if os.path.isdir(path):
+        files = os.listdir(path)
+        for file in files: ProcessFile(os.path.join(path, file))
+    elif path.endswith('.png'):
+        png_image = Image.open(path)
+        newpath = f'{os.path.splitext(path)[0]}.dds'
+        png_image.save(newpath, 'dds')
+        os.remove(path)
+        os.system(f'echo {path}')
 
 if __name__ == '__main__':
 	try:
