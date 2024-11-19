@@ -15,16 +15,21 @@
 - Lua解密反编译+编译加密
 
   1. 将py文件和unluac.jar、luac.exe放在同一个文件夹
-  2. 将需要解密反编译的文件拖到LuaDCC.py上，等待py执行完毕后修改
-  3. 将修改后的文件拖到LuaCC.py上，等待执行完毕
+  2. 将需要解密反编译的Lua文件拖到LuaDCC.py上，等待py执行完毕后按需修改
+  3. 将修改后的Lua文件拖到LuaCC.py上，等待执行完毕
 
 - Lua加解密
 
-  - 将需要加密/解密的文件拖到LuaCode.py上，等待py执行完毕
+  - 将需要加密/解密的Lua文件拖到LuaCode.py上，等待py执行完毕
+
+- Lua反编译/编译
+
+  - 将需要反编译的Lua文件拖到LuaDecompile.py上，等待py执行完毕
+  - 将需要编译的Lua文件拖到LuaCompile.py上，等待py执行完毕
 
 - PNG加解密
 
-  - 将需要加密/解密的文件拖到PNGCode.py上，等待py执行完毕
+  - 将需要加密/解密的png文件拖到PNGCode.py上，等待py执行完毕
 
 - DDS转PNG
 
