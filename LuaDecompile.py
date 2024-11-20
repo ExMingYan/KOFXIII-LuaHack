@@ -12,9 +12,12 @@ def ProcessFile(path:str):
 	elif path.endswith('.lua'):
 		if os.path.getsize(path) > LUAFILEMAXSIZE: exit(f'{path}文件太大无法转换。')
 		newpath = path.split('.')[0] + '_deCompile.' + path.split('.')[1]
-		os.system(f'java -jar unluac.jar "{path}">"{newpath}"')
-		os.system(f'mv "{newpath}" "{path}" -f')
-		os.system(f'echo {path}')
+		if (os.system(f'java -jar unluac.jar "{path}">"{newpath}"')):
+			os.system(f'echo {path}错误')
+			os.system(f'rm "{newpath}')
+		else:
+			os.system(f'mv "{newpath}" "{path}" -f')
+			os.system(f'echo {path}')
 
 if __name__ == '__main__':
 	try:

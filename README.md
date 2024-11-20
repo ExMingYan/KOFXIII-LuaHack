@@ -2,19 +2,19 @@
 
 ## 使用的其他项目源码链接
 
-1. [unluac](https://github.com/HansWessels/unluac)
-2. [lua](https://github.com/lua/lua)
+- [unluac](https://github.com/HansWessels/unluac)
+- [lua](https://github.com/lua/lua)
 
-## 环境配置
+## 环境配置需求
 
-1. Python3.12
-2. Java
+- Python3.10
+- Java
 
 ## 使用方法
 
 - Lua解密反编译+编译加密
 
-  1. 将py文件和unluac.jar、luac.exe放在同一个文件夹
+  1. 将LuaCode.py、LuaDCC.py、LuaCC.py、unluac.jar和luac.exe放在同一个文件夹
   2. 将需要解密反编译的Lua文件拖到LuaDCC.py上，等待py执行完毕后按需修改
   3. 将修改后的Lua文件拖到LuaCC.py上，等待执行完毕
 
@@ -24,6 +24,7 @@
 
 - Lua反编译/编译
 
+  - 将LuaCode.py、LuaDecompile.py、LuaCompile.py、unluac.jar和luac.exe放在同一个文件夹
   - 将需要反编译的Lua文件拖到LuaDecompile.py上，等待py执行完毕
   - 将需要编译的Lua文件拖到LuaCompile.py上，等待py执行完毕
 
