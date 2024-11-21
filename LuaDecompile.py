@@ -14,9 +14,9 @@ def ProcessFile(path:str):
 		newpath = path.split('.')[0] + '_deCompile.' + path.split('.')[1]
 		if (os.system(f'java -jar unluac.jar "{path}">"{newpath}"')):
 			os.system(f'echo {path}错误')
-			os.system(f'rm "{newpath}')
+			os.system(f'rm -f "{newpath}')
 		else:
-			os.system(f'mv "{newpath}" "{path}" -f')
+			os.system(f'mv -f "{newpath}" "{path}"')
 			os.system(f'echo {path}')
 
 if __name__ == '__main__':

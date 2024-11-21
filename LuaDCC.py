@@ -12,11 +12,11 @@ def deCodeCompile(path:str)->None:
 	newpath = path.split('.')[0] + '_deCode.' + path.split('.')[1]
 	with open(newpath, 'wb') as fwrite:
 		fwrite.write(bytes(afterdeCode))
-	if (os.system(f'java -jar unluac.jar "{path}">"{newpath}"')):
+	if (os.system(f'java -jar unluac.jar "{newpath}">"{path}"')):
 		os.system(f'echo {path}错误')
-		os.system(f'rm "{newpath}')
+		os.system(f'rm -f "{newpath}')
 	else:
-		os.system(f'mv "{newpath}" "{path}" -f')
+		os.system(f'rm -f "{newpath}"')
 		os.system(f'echo {path}')
 
 def ProcessFile(path:str)->None:
