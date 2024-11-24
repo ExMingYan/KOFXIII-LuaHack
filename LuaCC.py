@@ -19,7 +19,7 @@ def ProcessFile(path:str)->None:
 		files = os.listdir(path)
 		for file in files: ProcessFile(os.path.join(path, file))
 	elif path.endswith('.lua'):
-		if os.path.getsize(path) > LUAFILEMAXSIZE: exit(f'{path}文件太大无法转换。')
+		if os.path.getsize(path) > LUAFILEMAXSIZE: sys.exit(f'{path}文件太大无法转换。')
 		Code(path)
 
 if __name__ == '__main__':

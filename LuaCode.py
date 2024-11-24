@@ -6,12 +6,12 @@ import sys
 
 LUAFILEMAXSIZE = 32 * 1024 * 1024
 
-def ProcessFile(path:str):
+def ProcessFile(path:str)->None:
 	if os.path.isdir(path):
 		files = os.listdir(path)
 		for file in files: ProcessFile(os.path.join(path, file))
 	elif path.endswith('.lua'):
-		if os.path.getsize(path) > LUAFILEMAXSIZE: exit(f'{path}文件太大无法转换。')
+		if os.path.getsize(path) > LUAFILEMAXSIZE: sys.exit(f'{path}文件太大无法转换。')
 		with open(path, 'rb') as fread:
 			waitCode = fread.read()
 			afterCode = list(map(lambda x: int(x) ^ 0x66, waitCode))

@@ -14,17 +14,16 @@ def deCodeCompile(path:str)->None:
 		fwrite.write(bytes(afterdeCode))
 	if (os.system(f'java -jar unluac.jar "{newpath}">"{path}"')):
 		os.system(f'echo {path}错误')
-		os.system(f'rm -f "{newpath}')
 	else:
-		os.system(f'rm -f "{newpath}"')
 		os.system(f'echo {path}')
+	os.system(f'rm -f {path}')
 
 def ProcessFile(path:str)->None:
 	if os.path.isdir(path):
 		files = os.listdir(path)
 		for file in files: ProcessFile(os.path.join(path, file))
 	elif path.endswith('.lua'):
-		if os.path.getsize(path) > LUAFILEMAXSIZE: exit(f'{path}文件太大无法转换。')
+		if os.path.getsize(path) > LUAFILEMAXSIZE: sys.exit(f'{path}文件太大无法转换。')
 		deCodeCompile(path)
 
 if __name__ == '__main__':
