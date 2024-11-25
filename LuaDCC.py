@@ -16,7 +16,7 @@ def deCodeCompile(path:str)->None:
 		os.system(f'echo {path}错误')
 	else:
 		os.system(f'echo {path}')
-	os.system(f'rm -f {path}')
+	os.system(f'rm -f {newpath}')
 
 def ProcessFile(path:str)->None:
 	if os.path.isdir(path):
