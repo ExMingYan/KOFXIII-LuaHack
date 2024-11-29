@@ -76,6 +76,7 @@
 - fighter/ai_config.lua
 - fighter/command_table.lua
 - fighter/collision_table.lua
+- script/bg_params.lua
 - script/game_config.lua
 - script/game_params.lua
 - script/menu.lua
